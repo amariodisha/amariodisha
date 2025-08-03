@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Blog | Aamari Odisha</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="container">
+  <div class="top-header">
+    <img src="logo.jpg" alt="Aamari Odisha Logo" class="logo-img">
+    <div>
+      <div class="site-title">Aamari Odisha</div>
+      <div class="site-tagline">TRUST OF ODIA'S</div>
+      <nav>
+        <a href="index.html">Home</a>
+        <a class="active" href="blog.html">Blog</a>
+        <a href="latest-videos.html">Latest Videos</a>
+        <a href="govt-plans.html">Govt Plans</a>
+        <a href="govt-jobs.html">Govt Jobs</a>
+        <a href="govt-websites.html">Govt Websites</a>
+      </nav>
+    </div>
+  </div>
+  <div class="vlog-section">
+    <h2>Latest Blog/Vlog</h2>
+    <div class="vlog-post">
+      <div class="vlog-title">Odisha CHSE Result: Step by Step Download Guide</div>
+      <div class="vlog-desc">Find out how to download your 12th marksheet online safely and easily.</div>
+      <div class="vlog-date">Published: Aug 2024</div>
+    </div>
+    <div class="vlog-post">
+      <div class="vlog-title">Top Government Jobs in Odisha 2024</div>
+      <div class="vlog-desc">Discover trending govt jobs, preparation tips and latest notifications.</div>
+      <div class="vlog-date">Published: July 2024</div>
+    </div>
+    <div class="vlog-post">
+      <div class="vlog-title">How to Join the Aamari Odisha Community</div>
+      <div class="vlog-desc">Step-by-step on joining our official WhatsApp group and making connections.</div>
+      <div class="vlog-date">Published: June 2024</div>
+    </div>
+  </div>
+  <div class="community-join">
+    <h2>JOIN OUR COMMUNITY</h2>
+    <p>Join our WhatsApp group to connect with fellow Odia's.</p>
+    <button class="join-btn" onclick="window.open('https://whatsapp.com/', '_blank')">Join Now</button>
+  </div>
+  <div class="contact-section">
+    <h2>CONTACT US</h2>
+    <button class="email-btn" onclick="window.location.href='mailto:aamariodisha@email.com'">Email Us</button>
+  </div>
+  <footer>
+    © 2024 <span style="color:#a23b23">Aamari Odisha</span>
+  </footer>
+</div>
+</body>
+</html>
