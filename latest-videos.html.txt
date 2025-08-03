@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Latest Videos | Aamari Odisha</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="container">
+  <div class="top-header">
+    <img src="logo.jpg" alt="Aamari Odisha Logo" class="logo-img">
+    <div>
+      <div class="site-title">Aamari Odisha</div>
+      <div class="site-tagline">TRUST OF ODIA'S</div>
+      <nav>
+        <a href="index.html">Home</a>
+        <a href="blog.html">Blog</a>
+        <a class="active" href="latest-videos.html">Latest Videos</a>
+        <a href="govt-plans.html">Govt Plans</a>
+        <a href="govt-jobs.html">Govt Jobs</a>
+        <a href="govt-websites.html">Govt Websites</a>
+      </nav>
+    </div>
+  </div>
+
+  <div class="video-section">
+    <iframe src="https://www.youtube.com/embed/PUT_YOUR_VIDEO_ID_HERE"
+            title="How to Download Odisha CHSE Marksheet | 12th Result Download | 12th Marksheet"
+            allowfullscreen></iframe>
+    <div class="video-title">
+      How to Download Odisha CHSE Marksheet | 12th Result Download | 12th Marksheet
+    </div>
+  </div>
+
+  <div class="community-join">
+    <h2>JOIN OUR COMMUNITY</h2>
+    <p>Join our WhatsApp group to connect with fellow Odia's.</p>
+    <button class="join-btn" onclick="window.open('https://whatsapp.com/', '_blank')">Join Now</button>
+  </div>
+
+  <div class="contact-section">
+    <h2>CONTACT US</h2>
+    <button class="email-btn" onclick="window.location.href='mailto:aamariodisha@email.com'">Email Us</button>
+  </div>
+
+  <footer>
+    © 2024 <span style="color:#a23b23">Aamari Odisha</span>
+  </footer>
+</div>
+</body>
+</html>
