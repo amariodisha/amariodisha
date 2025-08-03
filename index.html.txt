@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Aamari Odisha - Trust of Odia's</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="container">
+  <div class="top-header">
+    <img src="logo.jpg" alt="Aamari Odisha Logo" class="logo-img">
+    <div>
+      <div class="site-title">Aamari Odisha</div>
+      <div class="site-tagline">TRUST OF ODIA'S</div>
+      <nav>
+        <a class="active" href="index.html">Home</a>
+        <a href="blog.html">Blog</a>
+        <a href="latest-videos.html">Latest Videos</a>
+        <a href="govt-plans.html">Govt Plans</a>
+        <a href="govt-jobs.html">Govt Jobs</a>
+        <a href="govt-websites.html">Govt Websites</a>
+      </nav>
+    </div>
+  </div>
+
+  <!-- Main Section -->
+  <div style="padding-top:34px;padding-bottom:34px;text-align:center">
+    <img src="logo.jpg" alt="Aamari Odisha Logo" style="width: 95px; border-radius: 24px; box-shadow:0px 4px 18px rgba(200, 80, 40, 0.09);margin-bottom:12px;">
+    <h1 class="site-title" style="margin-top:14px;">Welcome to Aamari Odisha</h1>
+    <div class="site-tagline" style="font-size:1.1em;color:#ab4a15;">Trust of Odia's</div>
+    <div style="color:#333;font-size:1.1em;margin-top:16px;line-height:1.7;max-width:500px;margin-left:auto;margin-right:auto;">
+      Explore Govt Jobs, Latest Videos, Blog, Govt Schemes and official websites—all in one trusted Odia community platform!
+    </div>
+    <div style="margin-top:35px;">
+      <a href="govt-jobs.html" class="join-btn" style="margin-right:10px;">Find Govt Jobs</a>
+      <a href="latest-videos.html" class="join-btn" style="background:linear-gradient(120deg,#49d766 60%, #fdaf58 100%)">Watch Videos</a>
+    </div>
+  </div>
+
+  <div class="community-join">
+    <h2>JOIN OUR COMMUNITY</h2>
+    <p>Join our WhatsApp group to connect with fellow Odia's.</p>
+    <button class="join-btn" onclick="window.open('https://whatsapp.com/', '_blank')">Join Now</button>
+  </div>
+
+  <div class="contact-section">
+    <h2>CONTACT US</h2>
+    <button class="email-btn" onclick="window.location.href='mailto:aamariodisha@email.com'">Email Us</button>
+  </div>
+
+  <footer>
+    © 2024 <span style="color:#a23b23">Aamari Odisha</span>
+  </footer>
+</div>
+</body>
+</html>
